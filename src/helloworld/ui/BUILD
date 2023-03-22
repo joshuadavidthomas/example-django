@@ -3,7 +3,7 @@
 
 python_sources(
     dependencies=[
-        "helloworld/ui/static",
-        "helloworld/ui/templates",
+        "src/helloworld/ui/static",
+        "src/helloworld/ui/templates",
     ]
 )

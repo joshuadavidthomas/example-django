@@ -3,14 +3,14 @@
 
 python_sources(
     dependencies=[
-        "helloworld/person/migrations",
+        "src/helloworld/person/migrations",
     ]
 )
 
 python_tests(
     name="tests",
     dependencies=[
-        "helloworld",  # For settings.py.
+        "src/helloworld",  # For settings.py.
     ],
 )
 

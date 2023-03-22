@@ -4,7 +4,7 @@
 python_sources(
     name="lib",
     dependencies=[
-        "helloworld/person",
+        "src/helloworld/ui",
     ],
 )
 
